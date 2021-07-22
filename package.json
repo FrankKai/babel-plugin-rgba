@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-rgba",
+  "version": "1.0.0",
+  "description": "十六进制颜色转换为RGBA颜色babel插件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel --plugins ./index.js test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankKai/babel-plugin-rgba.git"
+  },
+  "keywords": [],
+  "author": "yihu.gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrankKai/babel-plugin-rgba/issues"
+  },
+  "homepage": "https://github.com/FrankKai/babel-plugin-rgba#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
