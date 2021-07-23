@@ -4,7 +4,10 @@
   "description": "十六进制颜色转换为RGBA颜色babel插件。",
   "main": "index.js",
   "scripts": {
-    "test": "babel --plugins ./index.js test.js"
+    "test": "babel --plugins ./index.js test.js",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "repository": {
     "type": "git",
