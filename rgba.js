@@ -1,13 +1,9 @@
 module.exports = (hexColor, alpha) => {
   let hexData = hexColor.split("");
   if (hexData.length === 4) {
-    hexData = hexData.reduce((acc, cur) => {
-      if (cur === "#") {
-        return [...acc, cur];
-      } else {
-        return [...acc, cur, cur];
-      }
-    }, []);
+    hexData = hexData.reduce((acc, cur) =>
+      cur === "#" ? [...acc, cur] : [...acc, cur, cur]
+    );
   }
   const rgbData = [];
   let i = 1;

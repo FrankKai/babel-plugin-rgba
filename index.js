@@ -8,7 +8,7 @@ module.exports = () => {
         const alpha = state.opts.alpha;
         if(!alpha) return
         if (alpha) {
-          if (!path.node.init.value.includes("#")) {
+          if (!path.node.init.value || !path.node.init.value.includes("#")) {
             return;
           }
           if (alpha < 0 || alpha > 1) {
