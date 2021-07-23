@@ -1,5 +1,6 @@
 # babel-plugin-rgba
 十六进制颜色转换为RGBA颜色babel插件。
+支持js，ts文件中的变量定义，变量赋值转换。
 
 ## install
 ```shell
@@ -21,7 +22,6 @@ yarn add babel-plugin-rgba -D
 ```
 
 ## example
-目前仅支持js，ts文件中的变量命名转换。
 
 ```js
 const color1 = "#ffffff";
