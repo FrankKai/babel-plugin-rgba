@@ -24,6 +24,7 @@ yarn add babel-plugin-rgba -D
 ## example
 
 ```js
+// input.js
 const color1 = "#ffffff";
 const color2 = "#fff";
 
@@ -36,6 +37,7 @@ function test() {
 =>
 
 ```js
+// output.js
 const color1 = "rgba(255, 255, 255, 0.75)";
 const color2 = "rgba(255, 255, 255, 0.75)";
 
