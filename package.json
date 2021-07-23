@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-rgba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "十六进制颜色转换为RGBA颜色babel插件。",
   "main": "index.js",
   "scripts": {
