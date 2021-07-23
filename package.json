@@ -7,7 +7,8 @@
     "test": "babel --plugins ./index.js test.js",
     "patch": "npm version patch",
     "minor": "npm version minor",
-    "major": "npm version major"
+    "major": "npm version major",
+    "deploy": "npm publish --registry http://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
